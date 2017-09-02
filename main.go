@@ -11,8 +11,6 @@ import (
 	books "google.golang.org/api/books/v1"
 )
 
-const defaultPort = 3131
-
 func fatal(msg string) {
 	fmt.Fprintf(os.Stderr, fmt.Sprintf("%s\n", msg))
 	os.Exit(1)
